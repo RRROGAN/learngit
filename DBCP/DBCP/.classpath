@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="H:/视频/spring/韩顺平.2011版.spring视频教程.需要的开发软件包[学习库www.xuexi111.com]/韩顺平 2011版 spring视频教程 需要的开发软件包/ssh1 的 lib/ssh 需要的jar包汇总/commons-dbcp.jar"/>
+	<classpathentry kind="lib" path="H:/视频/spring/韩顺平.2011版.spring视频教程.需要的开发软件包[学习库www.xuexi111.com]/韩顺平 2011版 spring视频教程 需要的开发软件包/ssh1 的 lib/ssh 需要的jar包汇总/commons-pool.jar"/>
+	<classpathentry kind="lib" path="H:/视频/struts/struts-2.3.24-all/struts-2.3.24/lib/struts2/mysql-connector-java-commercial-5.1.25-bin.jar"/>
+	<classpathentry kind="lib" path="H:/视频/spring/韩顺平.2011版.spring视频教程.需要的开发软件包[学习库www.xuexi111.com]/韩顺平 2011版 spring视频教程 需要的开发软件包/spring-framework-2.5.5-with-dependencies/spring-framework-2.5.5/lib/c3p0/c3p0-0.9.1.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>form.html</title>
+	
+    <meta name="keywords" content="keyword1,keyword2,keyword3">
+    <meta name="description" content="this is my page">
+    <meta name="content-type" content="text/html; charset=gb2312">
+    
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+
+  </head>
+  
+  <body>
+   <form action="UploadServlet" method="post" enctype="multipart/form-data">
+   <table width="600px">
+   <tr>
+   <td>上传者</td>
+   <td><input type="text" name="name"/></td>
+   </tr>
+   <tr>
+   <td>上传文件</td>
+   <td><input type="file" name="myfile"/></td>
+   </tr>
+   <tr>
+   <td colspan="2"><input type="submit" value="上传"/></td>
+   </tr>
+   </table>
+   </form>
+  </body>
+</html>

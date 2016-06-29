@@ -1,0 +1,20 @@
+#MyEclipse Hibernate Properties
+#Sun Jun 19 15:18:22 CST 2016
+genBasicCompId=false
+sessionFactoryName=org.easybooks.bookstore.factory.HibernateSessionFactory
+profile=
+daoSFId=
+jndiPath=
+detectM2M=false
+reStrategyClass=
+detectO2O=false
+springDaoFile=
+useJavaTypes=true
+keyGenerator=native
+genVersionTag=false
+sessionFactoryId=sessionFactory
+basePersistenceClass=
+genAnnotations=false
+reSettingsFile=
+configFile=/jsp_struts2_spring_service_dao_hibernate/src/applicationContext.xml
+createConfigFile=true

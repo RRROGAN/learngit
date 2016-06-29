@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>jsp_struts2_spring_service_dao_hibernate</display-name>
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+    
+  </welcome-file-list>
+  
+   <filter>
+        <filter-name>struts2</filter-name>
+        <filter-class>org.apache.struts2.dispatcher.FilterDispatcher</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>struts2</filter-name>
+        <!-- 截取所有的url，地址被filter-class中的东西接收到
+        它首先去查struts.xml中的namespaces,namespace为 / 接下来去查 /下面又没有一个action叫hell，如果有，就去找result
+         下面永远写/* 不要写/*.do 或者/*.action
+         -->
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+  
+  <listener>
+    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+  </listener>
+  <context-param>
+    <param-name>contextConfigLocation</param-name>
+    <param-value>classpath:applicationContext.xml</param-value>
+  </context-param>
+</web-app>
